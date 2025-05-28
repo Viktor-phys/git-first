@@ -51,7 +51,7 @@ export default function App() {
 
       // TODO: Відправити дані на сервер або зберегти локально
 try {
-  await fetch('https://your-backend-url.onrender.com/checkin', {
+  await fetch('https://git-first-1.onrender.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
